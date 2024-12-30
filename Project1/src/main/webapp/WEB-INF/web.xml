@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Project1</display-name>
+	<servlet>
+	<servlet-name>create</servlet-name>
+	<servlet-class>com.js.pro.Project_1</servlet-class>
+	</servlet>
+		
+	<servlet-mapping>
+	<servlet-name>create</servlet-name>
+	<url-pattern>/log</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>high</servlet-name>
+	<servlet-class>com.js.pro.Insert_Servlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>high</servlet-name>
+	<url-pattern>/animal</url-pattern>
+	</servlet-mapping>
+	
+<!-- 	<servlet>
+	<servlet-name>update</servlet-name>
+	<servlet-class>com.js.pro.Update</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>update</servlet-name>
+	<url-pattern>/updt</url-pattern>
+	</servlet-mapping> -->
+<!-- 
+	<servlet-mapping>
+	<servlet-name>create</servlet-name>
+	<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping> -->
+</web-app>
