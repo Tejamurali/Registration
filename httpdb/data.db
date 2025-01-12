@@ -1,0 +1,37 @@
+
+CREATE SCHEMA IF NOT EXISTS httpdb;
+
+USE httpdb;
+
+
+CREATE TABLE data (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(40) NOT NULL,
+    age INT NOT NULL,
+    email VARCHAR(45) NOT NULL UNIQUE,
+    password VARCHAR(45) NOT NULL,
+    mobile_number BIGINT NOT NULL UNIQUE,
+    Address VARCHAR(200) DEFAULT NULL
+);
+
+INSERT INTO data (id, name, age, email, password, mobile_number, Address)
+VALUES
+(1, 'Aadhya', 23, 'aadhya12@gmail.com', 'Aadhya@1250', 93467485768, 'Noida'),
+(2, 'Chandana', 20, 'chandana@gmail.com', 'chandu@1243', 9237467368, 'Andhra'),
+(3, 'Chandra', 24, 'chandra@gmail.com', 'chandra@123', 8346750364, 'Chennai'),
+(4, 'Manikanta', 23, 'manikantakumarranimekala@gmail.com', 'Mani@1251', 8120394856, 'Agiripalli,andhraPradesh'),
+(5, 'Manjunadh', 22, 'manjunadh@gmail.com', 'manju@123', 7485637489, 'Tamilnadu'),
+(6, 'Aasim', 22, 'mohmmadaasim142@gmail.com', 'Aasim', 9177896422, 'Hyderabad,Telangana'),
+(7, 'Prasanna', 21, 'prasana@gmail.com', 'prasna@123', 9563748905, 'Banglore'),
+(8, 'Prasanna', 21, 'prasanna12@gmail.com', 'prasa@1250', 9346093864, 'Banglore'),
+(9, 'Prasanna', 25, 'prashu@gmail.com', 'prashu@123', 6294657828, 'Andhra'),
+(10, 'Shasank', 22, 'shasank@gmail.com', '23456789', 8237458924, 'Hyderabad'),
+(11, 'Teja murali Rajulapati', 21, 'teja21@gmail.com', '12345', 9346093863, 'chennai'),
+(12, 'Teja', 20, 'tejamurali@gmail.com', 'Teja@1250', 9346093868, '11-36/3-12/2,one town, Vijayawada'),
+(13, 'Teja Murali ', 21, 'tejamurali6478@gmail.com', 'Teja@1251', 9346093864, 'Hyderabad'),
+(14, 'Vishnu', 22, 'vishnusatwik1@gmail.com', '345678', 9374657485, 'Hyderabad'),
+(15, 'Prasad', 45, 'prasad123@gmail.com', 'prasad@100', 9951810755, 'Vijayawada, Andhraprdesh'),
+(16, 'Chakri', 40, 'chakri@gmail.com', 'chakri123', 9172564790, 'Nellore, Andhra Pradesh'),
+(17, 'Lavanya', 25, 'lavanya_019@gmail.com', 'Shannu', 6304528122, 'Dno-11-36/3-12/2, Beside 1-Town police station, Palli street No-5, Near Indira Gandhi bomma, Vijayawada-1'),
+(18, 'Mamatha', 23, 'mamatha@gmail.com', 'mammu@123', 7032849800, 'Kadapa, Andhra Pradesh'),
+(19, 'Mounika', 42, 'mounikasridevi@gmail.com', 'mouni143teja', 9121234698, 'Nunna, Andhra Pradesh');
