@@ -34,4 +34,4 @@ VALUES
 (16, 'Chakri', 40, 'chakri@gmail.com', 'chakri123', 9172564790, 'Nellore, Andhra Pradesh'),
 (17, 'Lavanya', 25, 'lavanya_019@gmail.com', 'Shannu', 6304528122, 'Dno-11-36/3-12/2, Beside 1-Town police station, Palli street No-5, Near Indira Gandhi bomma, Vijayawada-1'),
 (18, 'Mamatha', 23, 'mamatha@gmail.com', 'mammu@123', 7032849800, 'Kadapa, Andhra Pradesh'),
-(19, 'Mounika', 42, 'mounikasridevi@gmail.com', 'mouni143teja', 9121234698, 'Nunna, Andhra Pradesh');
+(19, 'Mounika', 22, 'mounikasridevi@gmail.com', 'mouni143teja', 9121234698, 'Nunna, Andhra Pradesh');
