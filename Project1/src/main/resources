@@ -1,6 +1,0 @@
-db.driver=com.mysql.cj.jdbc.Driver
-db.host=jdbc:mysql://localhost
-db.port=3306
-db.name=httpdb
-db.username=root
-db.password=Teja@1250
